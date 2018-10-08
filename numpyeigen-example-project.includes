@@ -1,0 +1,3 @@
+external/numpyeigen/external/eigen/
+external/numpyeigen/external/pybind11/include/
+external/numpyeigen/src
