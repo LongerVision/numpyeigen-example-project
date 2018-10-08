@@ -1,13 +1,19 @@
 # NumpyEigen Example Project
 A pip installable Python library built with [NumpyEigen](https://github.com/fwilliams/numpyeigen)
 
-This is a barebones example of a NumpyEigen CMake project. The project includes a setup.py and the modules built by it can be installed with pip as follows:
- 
+## Getting Started
+This is a barebones example of a NumpyEigen CMake project. To get started, first make sure to clone the repository with all its submodules:
 ```
-pip install git+git://github.com/fwilliams/numpyeigen-example-project
+git clone --recurse-submodules https://github.com/fwilliams/NumpyEigen-Example-Project
 ```
 
-For pip installation to work, a user will need the following dependencies installed:
+The project includes a setup.py and the modules built by it can be installed with pip as follows:
+ 
+```
+pip install git+git://github.com/fwilliams/NumpyEigen-Example-Project
+```
+
+For pip installation to work, you will need the following dependencies installed:
 * A C++ compiler supporting C++14 of later
 * CMake
 * Python Libraries with Scipy installed
