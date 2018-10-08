@@ -1,0 +1,9 @@
+build
+*.creator
+*.includes
+*.files
+*.config
+*.obj
+*.off
+__pycache__
+*.creator.user
