@@ -1,5 +1,8 @@
 # NumpyEigen Example Project
-An example project of how to build a Python library with [NumpyEigen](https://github.com/fwilliams/numpyeigen). 
+An example project of how to build a CPython library in C++ with [NumpyEigen](https://github.com/fwilliams/numpyeigen). 
+
+The C++ binding file ([example.cpp](https://github.com/fwilliams/numpyeigen-example-project/blob/master/example.cpp)) has detailed comments describing how to use NumpyEigen.
+The [CMakeLists.txt](https://github.com/fwilliams/numpyeigen-example-project/blob/master/CMakeLists.txt) build file also has detailed comments on how to integrate NumpyEigen with CMake.
 
 ## Getting Started
 This is a barebones example of a NumpyEigen CMake project. It creates a Python module called `npe_example` which is written in C++ and exposed to Python. To get started, first clone the repository
